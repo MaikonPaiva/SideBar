@@ -58,7 +58,16 @@ body{
     background: var(--light-green);
     color: var(--text-color);
     padding-left: 4.7rem;
+    text-decoration-style: none;
+    
+   
 }
+textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+
 .navigation{
     display: flex;
     flex-direction: column;
