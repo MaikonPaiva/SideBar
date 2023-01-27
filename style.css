@@ -1,0 +1,323 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background: var(--body-bg-color);
+    gap: 1rem;
+}
+.sidebar{
+    width:15.62rem;
+    background: var(--green);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    animation-duration: 1s;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.9rem;
+    
+
+}
+.imgmenu{
+    width: 3rem;
+    height: 3rem;
+    background-color: transparent;
+    border: none;
+}
+.input{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    padding: 0.9rem;
+    
+    
+}
+.button{
+    display: flex;
+    align-items: center;
+    background: transparent;
+    border: none;
+    width: 2rem;
+    height: 2rem;
+
+}
+.imgbutton{
+    left: 0;
+    position: absolute;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.search{
+    width: 15rem;
+    height: 3.18rem;
+    border:none;
+    border-radius:1.25rem ;
+    background: var(--light-green);
+    color: var(--text-color);
+    padding-left: 4.7rem;
+}
+.navigation{
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+    
+}
+a{
+    display:flex;
+    gap:2rem;
+    text-decoration: none;
+    align-items: center;
+
+}
+.grid{
+    padding-left: 0.5rem;
+    width: 3rem;
+    height: 3rem;
+   
+}
+.Dashboad{
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: var(--text-color);
+    
+}
+.pet{
+    padding-left: 0.5rem;
+    width: 3rem;
+    height: 3rem;
+    
+
+}
+.Pets{font-family: 'Poppins';
+    font-weight: 400;
+    color: var(--text-color);
+    
+
+}
+.user{
+    padding-left: 0.5rem;
+    
+    width: 3rem;
+    height: 3rem;
+}
+
+.customers{
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: var(--text-color);
+  
+}
+.vet{
+    padding-left: 0.5rem;
+    
+    width: 3rem;
+    height: 3rem;
+}
+.Vets{
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: var(--text-color);
+ 
+    
+}
+.settings{
+    padding-left: 0.5rem;
+    width: 3rem;
+    height: 3rem;
+
+}
+.configuration{
+    font-family: 'Poppins';
+    font-weight: 400;
+    grid-template-areas: 10;
+    color: var(--text-color);
+}
+
+
+h1{
+    background: transparent;
+    color: var(--text-color);
+    font-family:'Poppins';
+    font-weight: 500;
+    display: flex;
+    align-items:center ;
+}
+.login{
+    width:15.62rem ;
+    height: 8vh;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    background: var(--light-green);
+    align-items: center;
+    padding:0.5rem;
+    animation-duration: 1.5s;
+}
+.imglogin{
+    width:2.81rem ;
+    height: 2.81rem;
+    border-radius: 1.25rem;
+}
+.loglogin{
+    width: 1.81rem;
+    height: 1.81rem;
+}
+.loglogin2{
+    width: 0;
+    height: 0;
+}
+p{
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+
+}
+.name{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 0.95rem;
+    
+}
+.office{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: small;
+}
+@keyframes showSidebar{
+    from{ width: 15.62rem;}
+    top{width: 4.5rem;
+    }
+}
+@keyframes openSidebar {
+    from{ width: 4.5rem}
+    top{width: 15.62rem;}
+    
+}
+
+
+
+@media (max-width:768px){
+    .sidebar{
+        width:8.5rem;
+        animation-duration: 1s;
+    }
+    .menu{
+
+        gap:1rem;
+    }
+    .imgmenu{
+      width: 1.75rem;
+      height: 1.75rem;
+
+    }
+ 
+    .imgbutton{
+        width: 1.75rem;
+        height: 1.75rem;
+    }
+
+    .search{
+        width: 7.5rem;
+        height: 1.58rem;
+        border:none;
+        border-radius:1.25rem ;
+        background: var(--light-green);
+        color: var(--text-color);
+        padding-left: 2.5rem;
+    }
+    .navigation{
+        display: flex;
+        flex-direction: column;
+        gap:1.5rem;
+        width: 7.31rem;
+     
+    
+        
+        
+    }
+    .grid{
+        padding-left: 0.5rem;
+        width: 1.5rem;
+        height: 1.5rem;
+       
+    }
+    .pet{
+        padding-left: 0.5rem;
+        width: 1.75rem;
+        height: 1.75rem;
+        
+    
+    }
+    .user{
+        padding-left: 0.5rem;
+        
+        width: 1.75rem;
+        height: 1.75rem;
+    }
+    .vet{
+        padding-left: 0.5rem;
+        
+        width: 1.75rem;
+        height: 1.75rem;
+    }
+    .settings{
+        padding-left: 0.5rem;
+        width: 1.75rem;
+        height: 1.75rem;
+    
+    }
+    a{
+        display:flex;
+        gap: 0.5em;
+        text-decoration: none;
+        font-size: small;
+    
+    }
+    .imgbutton{
+        padding-left: 0.5rem;
+        position: absolute;
+    }
+    #imglogo{
+        z-index: 0;
+        width: 4rem;
+        height: 4rem;
+    }
+    .login{
+        width:8.5rem ;
+        justify-content: space-between;
+        background: var(--light-green);
+        align-items: center;
+        padding:0.1rem;
+    }
+    .imglogin{
+        width:2rem ;
+        height: 2rem;
+        border-radius: 1rem;
+    }
+    
+    .loglogin{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 2rem;
+        height: 2rem;
+    }
+    .name{
+        font-size: 0.7rem;
+        
+    }
+    .office{
+        font-size: xx-small;
+
+}
+}

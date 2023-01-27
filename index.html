@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./global.css">
+
+    <title>SideBar</title>
+
+</head>
+<body>
+    <div class="sidebar" id="sidebar">
+        <div class="menu">
+            <img src="./images/logo.svg" id="imglogo" alt="">
+            <button onclick="toggleSidebar()" alt="" class="imgmenu" id="imgmenu">
+                <img src="./images/menu.svg" alt="">
+            </button>
+        
+        </div>
+        <div class="input" id="input">
+            <button class="button" id="buttonSearch">
+            <img src="./images/search.svg" alt="" class="imgbutton" id="imgSearch">
+            </button>
+            <input type="text" class="search" id="search" placeholder="search">
+        </div>
+        <div class="navigation" id="navigation">
+            
+            <a href="" id="Dashboad">
+                <img src="./images/grid.svg" alt="" class="grid">
+                <span id="Dashboad" class="Dashboad"> Dashboad</span> 
+            </a>
+            
+            <a href=""  id="Pets">
+                <img src="./images/pet.svg" alt="" class="pet">
+                <span class="Pets"> Pets</span>
+            </a>
+            
+            <a href=""  id="User">
+                <img src="./images/user.svg" alt="" class="user">
+                <span class="customers"> Customers</span> 
+            </a>
+            
+            <a href=""  id="Vets">
+                <img src="./images/vet.svg" alt="" class="vet">
+                <span class="Vets"> Vets</span> 
+            </a>
+            
+            <a href=""  id="Confuguration">
+                <img src="./images/settings.svg" alt="" class="settings">
+                <span class="configuration"> Configuration</span> 
+            </a>
+        </div>
+
+        <div class="login" id="login">
+            <img src="./images/photo.jpg" alt="" class="imglogin" id="imglogin">
+            <p >
+                <span id="nome" class="name">Eleanor Pena</span> 
+                <span id="office" class="office">Veterinária</span> 
+            </p>
+            <img src="./images/log-out.svg" alt=""class="loglogin" id="loglogin">
+           
+                
+        </div>
+        
+
+    </div>
+    <div class="header">
+       <h1>Dashboard</h1> 
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
